@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="User Name" />
+
+    <EditText
+            android:id="@+id/userNameEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:minWidth="150dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:background="@color/design_default_color_primary_dark"
+            />
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Password" />
+
+    <EditText
+            android:id="@+id/passwordEditView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:minWidth="150dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:background="@color/design_default_color_primary_dark"
+            />
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            />
+
+    <Button
+            android:id="@+id/goButton"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@color/design_default_color_primary_dark"
+            android:gravity="center"
+            android:text="GO!"
+            />
+
+</LinearLayout>
